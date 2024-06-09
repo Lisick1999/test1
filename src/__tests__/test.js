@@ -1,7 +1,7 @@
-import specifications from '../js/specifications.js';
+import specifications from '../js/specifications';
 
 test('color scheme', () => {
-  const result = specifications({name: 'Маг', health: 90});
+  const result = specifications({ name: 'Маг', health: 90 });
 
   expect(result).toBe('healthy');
 });
